@@ -259,3 +259,94 @@ a:hover {
 .underline:hover {
     text-decoration: underline;
 }
+
+/* ------------Six Background Image------------- */
+
+#sixbgimg {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(./Images/promo__sw58lbodkmqq_large.jpg);
+    height: 600px;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    padding-top: 60px;
+    margin-bottom: 10px;
+}
+
+#sixbgimg h1 {
+    font-size: 35px;
+}
+#sixbgimg p {
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+#sixbgimg li {
+    display: inline;
+}
+
+#sixbgimg li a{
+    color: #ffffff;
+    line-height: 2em;
+    font-size: 17px;
+} 
+
+/* #buy {
+    margin-left: 30px;
+} */
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+/* ------------Seven Background Image------------- */
+
+#sevenbgimg {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: url(./Images/promo_ipad__fioegapg12qi_large.jpg);
+    height: 600px;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    padding-top: 60px;
+    margin-bottom: 10px;
+}
+
+#sevenbgimg h1 {
+    font-size: 38px;
+}
+
+#sevenbgimg p {
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+#sevenbgimg li {
+    display: inline;
+}
+
+#sevenbgimg li a{
+    color: #2992ff;
+    line-height: 2em;
+    font-size: 16px;
+} 
+
+#buy {
+    margin-left: 30px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
