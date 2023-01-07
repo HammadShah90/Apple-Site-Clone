@@ -1,0 +1,261 @@
+/* ------------Body------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* ------------Navigation Bar------------- */
+
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar ul {
+    background-color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 10px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.apple {
+    width: 12px;
+}
+
+a {
+    color: rgb(219, 218, 218);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.search {
+    width: 20px;
+}
+
+.bag {
+    width: 20px;
+}
+
+/* ------------First Background Image------------- */
+
+#firstbgimg {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(./Images/hero_iphone14pro__e5xbgo5ffhg2_largetall.jpg);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+#firstbgimg h1 {
+    font-size: 50px;
+}
+
+#firstbgimg p {
+    font-size: 28px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#firstbgimg li {
+    /* list-style-type: none; */
+    display: inline;
+}
+
+#firstbgimg li a{
+    color: #2992ff;
+    line-height: 2em;
+    font-size: 20px;
+} 
+
+#buy {
+    margin-left: 30px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+/* ------------Second Background Image------------- */
+
+#secondbgimg {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: url(./Images/hero_iphone14__fjmsqstr1ceq_largetall.jpg);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+
+#secondbgimg h1 {
+    font-size: 50px;
+}
+
+#secondbgimg p {
+    font-size: 28px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#secondbgimg li {
+    display: inline;
+}
+
+#secondbgimg li a{
+    color: #2992ff;
+    line-height: 2em;
+    font-size: 20px;
+} 
+
+#buy {
+    margin-left: 30px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+/* ------------Third Background Image------------- */
+
+#thirdbgimg {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(./Images/hero_apple_watch_series_8__bjc1ok5mkjua_largetall.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+#thirdbgimg p {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#thirdbgimg li {
+    display: inline;
+}
+
+#thirdbgimg li a{
+    color: #2992ff;
+    line-height: 2em;
+    font-size: 20px;
+} 
+
+#buy {
+    margin-left: 30px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+/* ------------Forth Background Image------------- */
+
+#forthbgimg {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: url(./Images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    height: 600px;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    padding-top: 60px;
+    margin-bottom: 10px;
+}
+
+#forthbgimg p {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#forthbgimg li {
+    display: inline;
+}
+
+#forthbgimg li a{
+    color: #2992ff;
+    line-height: 2em;
+    font-size: 16px;
+} 
+
+#buy {
+    margin-left: 30px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+/* ------------Fifth Background Image------------- */
+
+#fifthbgimg {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: url(./Images/promo-apple-fitness-plus-iphone__bzeal882mv7m_large.jpg);
+    height: 600px;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    padding-top: 60px;
+    margin-bottom: 10px;
+}
+
+#fifthbgimg p {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#fifthbgimg li {
+    display: inline;
+}
+
+#fifthbgimg li a{
+    color: #2992ff;
+    line-height: 2em;
+    font-size: 16px;
+} 
+
+#buy {
+    margin-left: 30px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
