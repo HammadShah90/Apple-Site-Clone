@@ -479,6 +479,7 @@ a:hover {
 hr {
     width: 78%;
     margin: auto;
+    color: rgb(119, 113, 113);
 }
 
 /* --------------------Footer Table---------------------- */
