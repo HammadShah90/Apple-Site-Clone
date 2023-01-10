@@ -7,13 +7,36 @@
     font-family: sans-serif;
 }
 
+#container {
+    max-width: 100vw;
+}
+
+a {
+    color: rgb(219, 218, 218);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#buy {
+    margin-left: 30px;
+}
+
+#tryitfree {
+    margin-left: 30px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
 /* ------------Navigation Bar------------- */
 
-#navbar {
-    overflow: hidden;
-    position: fixed;
+#header {
+    position: sticky;
     top: 0;
-    width: 100%;
 }
 
 #navbar ul {
@@ -28,37 +51,32 @@
     width: 12px;
 }
 
-a {
-    color: rgb(219, 218, 218);
-    text-decoration: none;
-}
-
-a:hover {
-    color: rgb(255, 255, 255);
-}
 
 .search {
     width: 20px;
 }
 
 .bag {
-    width: 20px;
+    width: 19px;
 }
 
 /* ------------iPhone 14 Pro------------- */
 
-#firstbgimg {
-    color: rgb(255, 255, 255);
+#middlearea1 {
     text-align: center;
-    background-image: url(./Images/hero_iphone14pro__e5xbgo5ffhg2_largetall.jpg);
-    height: 700px;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    flex-wrap: wrap;
+}
+
+#firstbgimg {
+    background-image: url(./Images/hero_iphone14pro__e5xbgo5ffhg2_largetall.jpg);
+    color: rgb(255, 255, 255);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    padding-top: 60px;
 }
 
 #firstbgimg h1 {
@@ -72,7 +90,6 @@ a:hover {
 }
 
 #firstbgimg li {
-    /* list-style-type: none; */
     display: inline;
 }
 
@@ -81,14 +98,6 @@ a:hover {
     line-height: 2em;
     font-size: 20px;
 } 
-
-#buy {
-    margin-left: 30px;
-}
-
-.underline:hover {
-    text-decoration: underline;
-}
 
 /* -----------------iPhone 14------------------- */
 
@@ -99,10 +108,6 @@ a:hover {
     height: 700px;
     width: 100%;
     background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 80px;
     margin-bottom: 10px;
 }
@@ -127,27 +132,16 @@ a:hover {
     font-size: 20px;
 } 
 
-#buy {
-    margin-left: 30px;
-}
-
-.underline:hover {
-    text-decoration: underline;
-}
 
 /* ---------------Watch Series 8--------------- */
 
 #thirdbgimg {
     color: rgb(255, 255, 255);
-    text-align: center;
     background-image: url(./Images/hero_apple_watch_series_8__bjc1ok5mkjua_largetall.jpg);
-    height: 600px;
+    height: 550px;
     width: 100%;
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 50px;
     margin-bottom: 10px;
 }
@@ -168,35 +162,28 @@ a:hover {
     font-size: 20px;
 } 
 
-#buy {
-    margin-left: 30px;
-}
-
-.underline:hover {
-    text-decoration: underline;
-}
-
 /* ----------------Watch Ultra----------------- */
 
-#forthbgimg {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    background-image: url(./Images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+#middlearea2 {
+    margin: 0px 10px 10px 10px;
     height: 550px;
-    width: 48%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#forthbgimg {
+    background-image: url(./Images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    color: rgb(0, 0, 0);
+    width: 49.5%;
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    float: left;
-    padding-top: 55px;
-    margin: 0px 10px 10px 10px ;
+    padding-top: 50px;
 }
 
 #forthbgimg p {
-    font-size: 20px;
-    padding-top: 15px;
+    font-size: 22px;
+    padding-top: 5px;
     padding-bottom: 10px;
 }
 
@@ -207,7 +194,7 @@ a:hover {
 #forthbgimg li a{
     color: #06c;
     line-height: 2em;
-    font-size: 16px;
+    font-size: 17px;
 } 
 
 #buy {
@@ -221,29 +208,18 @@ a:hover {
 /* ------------Fitness  + ------------- */
 
 #fifthbgimg {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    background-image: url(./Images/promo-apple-fitness-plus-iphone__bzeal882mv7m_large.jpg);
-    height: 550px;
-    width: 48%;
+    background-image: url(./Images/beyonce_promo__c8bt5lllfl2e_medium.jpg);
+    color: rgb(255, 255, 255);
+    width: 49.5%;
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    float: right;
-    padding-top: 55px;
-    margin: 0px 10px 10px 10px ;
+    padding-top: 50px;
 }
 
 #fifthbgimg p {
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 22px;
+    padding-top: 5px;
     padding-bottom: 2px;
-}
-
-#fifthbgimg ul {
-    padding-bottom: 5px;
 }
 
 #fifthbgimg li {
@@ -251,42 +227,35 @@ a:hover {
 }
 
 #fifthbgimg li a{
-    color: #06c;
+    color: rgb(255, 255, 255);
     line-height: 2em;
-    font-size: 16px;
+    font-size: 17px;
 } 
-
-#tryitfree {
-    margin-left: 30px;
-}
-
-.underline:hover {
-    text-decoration: underline;
-}
 
 /* ------------A gift for every wish------------- */
 
-#sixbgimg {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    background-image: url(./Images/promo__sw58lbodkmqq_large.jpg);
+#middlearea3 {
+    margin: 0px 10px 10px 10px;
     height: 550px;
-    width: 48%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sixbgimg {
+    background-image: url(./Images/promo__sw58lbodkmqq_large.jpg);
+    color: rgb(255, 255, 255);
+    width: 49.5%;
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    float: left;
     padding-top: 50px;
-    margin: 0px 10px 10px 10px ;
 }
 
 #sixbgimg h1 {
-    font-size: 35px;
+    font-size: 38px;
 }
 #sixbgimg p {
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 8px;
     padding-bottom: 10px;
 }
@@ -299,32 +268,17 @@ a:hover {
     color: #ffffff;
     line-height: 2em;
     font-size: 17px;
-} 
-
-/* #buy {
-    margin-left: 30px;
-} */
-
-.underline:hover {
-    text-decoration: underline;
 }
 
 /* ------------------Ipad------------------- */
 
 #sevenbgimg {
     color: rgb(0, 0, 0);
-    text-align: center;
     background-image: url(./Images/promo_ipad__fioegapg12qi_large.jpg);
-    height: 550px;
-    width: 48%;
+    width: 49.5%;
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    float: right;
     padding-top: 50px;
-    margin: 0px 10px 10px 10px ;
 }
 
 #sevenbgimg h1 {
@@ -332,7 +286,7 @@ a:hover {
 }
 
 #sevenbgimg p {
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 5px;
     padding-bottom: 10px;
 }
@@ -344,51 +298,38 @@ a:hover {
 #sevenbgimg li a{
     color: #06c;
     line-height: 2em;
-    font-size: 16px;
+    font-size: 17px;
 } 
 
-#buy {
-    margin-left: 30px;
-}
-
-.underline:hover {
-    text-decoration: underline;
-}
-
 /* -----------------------Arcade------------------------ */
+#middlearea4 {
+    margin: 0px 10px 10px 10px;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
 
 #eightbgimg {
+    background-image: url(./Images/promo_airpods_pro_avail__gaxggskofx6y_large.jpg);
     color: rgb(255, 255, 255);
-    text-align: center;
-    background-image: url(./Images/xoxo_promo__czow8gsh0gk2_large.jpg);
-    height: 550px;
-    width: 48%;
+    width: 49.5%;
     background-position: center;
-    background-size: cover;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    float: left;
+    /* background-size: cover; */
     padding-top: 50px;
-    margin: 0px 10px 10px 10px ;
+}
+
+#eightbgimg h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 10px;
 }
 
 #eightbgimg h5 {
-    font-size: 18px;
-    line-height: 1em;
-    font-weight: 400;
+    font-size: 21px;
+    font-weight: 500;
     padding-top: 10px;
-}
-
-.bottom {
-    position: relative;
-    top: 320px;
-}
-
-#eightbgimg h6 {
-    font-size: 18px;
-    font-weight: 400;
-    padding-top: 10px;
+    margin-bottom: 10px;
 }
 
 #eightbgimg li {
@@ -396,37 +337,25 @@ a:hover {
 }
 
 #eightbgimg li a{
-    color: rgb(255, 255, 255);
+    color: #06c;
     line-height: 2em;
-    font-size: 16px;
+    font-size: 17px;
 } 
-
-#tryitfree {
-    margin-left: 30px;
-}
-
 
 /* -----------------------Card------------------------ */
 
 #ninebgimg {
-    color: rgb(0, 0, 0);
-    text-align: center;
     background-image: url(./Images/tile__cauwwcyyn9hy_large.jpg);
-    height: 550px;
-    width: 48%;
+    color: rgb(0, 0, 0);
+    width: 49.5%;
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    float: left;
     padding-top: 50px;
-    margin: 0px 10px 10px 10px ;
 }
 
 #ninebgimg h5 {
     font-size: 20px;
-    line-height: 1.2em;
+    line-height: 1em;
     font-weight: 400;
     padding-top: 10px;
     margin-bottom: 5px;
@@ -439,23 +368,27 @@ a:hover {
 #ninebgimg li a{
     color: #06c;
     line-height: 2em;
-    font-size: 16px;
+    font-size: 17px;
 } 
 
 /* -----------------------Last  center image------------------------ */
 
-#tenbgimg{
+.willsmithpic {
     width: 100%;
 }
 
 /* -----------------------Footer Paragraph------------------------ */
 
-#lastpara {
+#footer {
     background-color: rgb(255, 255, 255);
+}
+
+#lastpara {
     color: rgb(119, 113, 113);
     width: 78%;
     margin: 0 auto;
     padding: 17px 0px 11px 0;
+    border-bottom: 1px solid rgb(148, 148, 148);
 }
 
 
@@ -472,22 +405,12 @@ a:hover {
     text-decoration: none;
 }
 
-.footnotepara a:hover {
-    text-decoration: underline;
-}
-
-hr {
-    width: 78%;
-    margin: auto;
-    color: rgb(119, 113, 113);
-}
-
 /* --------------------Footer Table---------------------- */
 
 #foottable {
     color: rgb(119, 113, 113);
     width: 78vw;
-    padding-top: 18px;
+    padding-top: 20px;
     margin: 0 auto;
     font-size: 13px;
     line-height: 2em;
@@ -502,4 +425,39 @@ hr {
 .heading {
     font-weight: bold;
     color: rgb(0, 0, 0);
+}
+
+#lastarea {
+    color: rgb(119, 113, 113);
+    width: 78vw;
+    padding-top: 20px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 2em;
+}
+
+.mwshop{
+    border-bottom: 1px solid rgb(148, 148, 148);
+    padding-bottom: 4px;
+}
+
+.mwshop a {
+    color: #06c;
+}
+
+.lastline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy a {
+    color: rgb(53, 52, 52);
+    font-size: 12px;
+    border-right: 1px solid grey;
+    padding: 0px 15px 0px 15px;
+}
+
+.countryname a {
+    color: rgb(53, 52, 52);
+    font-size: 12px;
 }
